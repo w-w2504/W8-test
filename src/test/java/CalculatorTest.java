@@ -7,7 +7,7 @@ public class CalculatorTest {
     @Test
     public void testAdd() {
         int actualRes = Calculator.add(2,3);
-        assertEquals(5,actualRes);
+        assertEquals(10,actualRes);
     }
 
     @Test
